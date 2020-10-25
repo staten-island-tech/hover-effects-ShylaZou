@@ -1,0 +1,15 @@
+@import "_variables.scss";
+@import "btn.scss";
+
+.comtainer {
+    width: 80vw;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 1.5 rem;
+    align-items: center;
+    text-align: center;
+}
+
