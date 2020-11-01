@@ -1,1 +1,25 @@
 @import "_variables.scss";
+
+.btn4 {
+    background-image: url(../media/takoyaki.jpg);
+    background-size: cover;
+    height: 85%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    background-position: center center;
+    align-items: center;
+    border: none;
+    transition: all 1s;
+    filter: grayscale(100%);
+  }
+  
+  .btn4:hover {
+    filter: grayscale(0%);
+    filter: none;
+    transition: 1s;
+  }
+  

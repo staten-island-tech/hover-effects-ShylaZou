@@ -1,1 +1,23 @@
 @import "_variables.scss";
+
+.btn5 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  padding: 1.5rem 4rem;
+  width: 60vh;
+  height: 5rem;
+  border: none;
+  background-color: #b7b6e7;
+  color: #fff;
+  border-radius: 10rem;
+  position: relative;
+  transition: all 1s;
+}
+
+.btn5:hover {
+  color: #000000;
+  border: none;
+  background: #b7b6e7;
+  transform: scale(0.8);
+  transition: 1s;
+}
