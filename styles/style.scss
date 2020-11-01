@@ -1,15 +1,19 @@
 @import "_variables.scss";
-@import "btn.scss";
+@import "_btn.scss";
+@import "_btn2.scss";
+@import "_btn3.scss";
+@import "_btn4.scss";
+@import "_btn5.scss";
 
-.comtainer {
-    width: 80vw;
-    margin: 2rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 1rem;
-    font-size: 1.5 rem;
-    align-items: center;
-    text-align: center;
+.container {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+  text-align: center;
+  font-size: 62.5%;
 }
 
