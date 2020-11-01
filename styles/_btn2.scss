@@ -1,1 +1,22 @@
 @import "_variables.scss";
+
+.btn2 {
+  display: flex;
+  background-image: url(../media/bubbletea.jpg);
+  height: 85%;
+  width: 95%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  background-position: center center;
+  align-items: center;
+  border: none;
+  transition: all 0.2s;
+}
+
+.btn2:hover {
+  border: 5px dotted #301934;
+}
